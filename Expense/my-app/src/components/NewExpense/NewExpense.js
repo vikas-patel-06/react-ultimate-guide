@@ -6,7 +6,6 @@ import './NewExpense.css'
 const NewExpense = (props) => {
   const [isEditing, setIsEditing] = useState(false)
 
-  const cpe = 'vikas'
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
