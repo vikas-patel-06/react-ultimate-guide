@@ -46,7 +46,7 @@ const AddUser = (props) => {
     <div>
       {error && (
         <ErrorModal
-          titel={error.titel}
+          title={error.title}
           message={error.message}
           onConfirm={errorHandler}
         />
